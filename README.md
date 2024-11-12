@@ -1,6 +1,5 @@
 # Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
-## Register Number :  212223240036
-# DATE: 26/09/2024
+# DATE: 05/09/2024
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
 # ALGORITHM
@@ -35,7 +34,7 @@
 
 # INPUT: 
 ### ex2.l
-```c
+```
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -83,7 +82,7 @@ int yywrap() { return 1; }
 
 ```
 ### var.c
-```c
+```
 #include<stdio.h>
 int main()
 {
@@ -92,7 +91,9 @@ int main()
 }
 ```
 # OUTPUT:
-![image](https://github.com/user-attachments/assets/db92bd64-1fdc-4dd7-afb0-9c8c07e6aaab)
+![377374996-ccfee339-5608-4a1c-9728-f35454dc432a](https://github.com/user-attachments/assets/29cd6d97-a0ba-4cee-b0a7-88ab9451c948)
+
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
